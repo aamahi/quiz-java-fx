@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="684.0" xmlns="http://javafx.com/javafx/11.0.14-internal" style="-fx-background-color: white; -fx-background-radius: 32px; -fx-border-radius: 32px;" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.easyquiz.ResultController">
+   <children>
+      <Label layoutX="298.0" layoutY="42.0" text="Result">
+         <font>
+            <Font name="Open Sans Extrabold" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="remark" layoutX="32.0" layoutY="92.0" prefHeight="70.0" prefWidth="623.0" text="Very good work!! This is your hard work and dedication which helped you to reach the zeinth of success." wrapText="true">
+         <font>
+            <Font name="Open Sans Semibold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="marks" layoutX="49.0" layoutY="184.0" style="-fx-background-color: skyblue; -fx-background-radius: 16px; -fx-border-radius: 16px;" text="9/10" textFill="#1f3eff">
+         <font>
+            <Font name="Open Sans Extrabold" size="30.0" />
+         </font>
+         <padding>
+            <Insets bottom="32.0" left="32.0" right="32.0" top="32.0" />
+         </padding>
+      </Label>
+      <Label fx:id="markstext" layoutX="51.0" layoutY="317.0" text="9 Marks Scored" textFill="#1f3eff">
+         <font>
+            <Font name="Open Sans Semibold" size="17.0" />
+         </font>
+      </Label>
+      <ProgressIndicator fx:id="correct_progress" layoutX="277.0" layoutY="172.0" minHeight="130.0" minWidth="130.0" progress="0.9" style="-fx-background-color: lightgreen; -fx-progress-color: green; -fx-font-weight: 900; -fx-font-size: 18px; -fx-background-radius: 16px; -fx-border-radius: 16px; -fx-box-border: green;">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </ProgressIndicator>
+      <ProgressIndicator fx:id="wrong_progress" layoutX="492.0" layoutY="172.0" minHeight="130.0" minWidth="130.0" progress="0.1" style="-fx-background-color: FFCDD2; -fx-progress-color: red; -fx-font-weight: 900; -fx-font-size: 18px; -fx-background-radius: 16px; -fx-border-radius: 16px; -fx-box-border: red;">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </ProgressIndicator>
+      <Label fx:id="correcttext" layoutX="263.0" layoutY="317.0" text="Correct Answers : 9" textFill="GREEN">
+         <font>
+            <Font name="Open Sans Semibold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="wrongtext" layoutX="471.0" layoutY="317.0" text="Incorrect Answers : 1" textFill="RED">
+         <font>
+            <Font name="Open Sans Semibold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

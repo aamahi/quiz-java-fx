@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="392.0" prefWidth="587.0" style="-fx-background-color: white; -fx-background-radius: 32px; -fx-border-radius: 32px;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.easyquiz.QuizController">
+   <children>
+      <Label fx:id="question" layoutX="43.0" layoutY="56.0" prefHeight="89.0" prefWidth="461.0" text="1. What is the capital of Bangladesh??" wrapText="true">
+         <font>
+            <Font name="Open Sans Semibold" size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="opt1" layoutX="43.0" layoutY="168.0" mnemonicParsing="false" onAction="#opt1clicked" prefHeight="57.0" prefWidth="236.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Button" textFill="WHITE">
+         <font>
+            <Font name="Open Sans Semibold" size="17.0" />
+         </font>
+      </Button>
+      <Button id="opt3" fx:id="opt3" layoutX="43.0" layoutY="241.0" mnemonicParsing="false" onAction="#opt3clicked" prefHeight="57.0" prefWidth="236.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Button" textFill="WHITE">
+         <font>
+            <Font name="Open Sans Semibold" size="17.0" />
+         </font>
+      </Button>
+      <Button id="opt4" fx:id="opt4" layoutX="300.0" layoutY="241.0" mnemonicParsing="false" onAction="#opt4clicked" prefHeight="57.0" prefWidth="236.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Button" textFill="WHITE">
+         <font>
+            <Font name="Open Sans Semibold" size="17.0" />
+         </font>
+      </Button>
+      <Button id="opt2" fx:id="opt2" layoutX="300.0" layoutY="168.0" mnemonicParsing="false" onAction="#opt2clicked" prefHeight="57.0" prefWidth="236.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Button" textFill="WHITE">
+         <font>
+            <Font name="Open Sans Semibold" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
